@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>My Profile</title>
+	<link href="https://fonts.googleapis.com/css?family=Kite+One|Pacifico" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"/> 
+	<link rel="profile icon" type="image/x-icon" href="images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" rel="stylesheet" href="../css/home.css"/>
+
+</head>
+
+<body>
+
+	<div class="div1">
+		<a href="../index.html" title="go to quote generator">Quote Generator</a>
+		<a href="hero.html" title="go to hero convertor">Hero Convertor</a>
+		<a href="#" title="go to recorder">Max Min Sum Ave</a>
+		<a href="magic.html" title="go to magic box">Magic Box</a>
+	</div>
+
+	<div class='div2'>
+
+		<div id="maxmin">
+			
+		
+			<form>
+				Input Series of Number <input type="text" name="value"> <br />
+				<input type="button" name="go" value="Go" onclick="showCal(this.form)">
+			</form>
+			
+			
+			
+		</div>
+		
+		<div id="calcu">
+		
+			<p>Max: <span id="maxim"></span></p>
+			<p>Min: <span id="minim"></span></p>
+			<p>Sum: <span id="sum"></span></p>
+			<p>Average: <span id="average"></span></p>
+			<p>Reverse Order: <span id="reverse"></span></p>
+
+		</div>
+
+
+		<div id='footer'>
+			<p id= 'footer-text' class='my-center-text'>This document was last modified at </p>
+			<p id= 'loc-text' class='my-center-text'>This document is located at </p>
+			
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="../js/location.js"></script>
+	<script type="text/javascript" src="../js/calculator.js"></script>
+	
+</body>
+
+</html>
